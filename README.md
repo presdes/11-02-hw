@@ -273,7 +273,7 @@ redis.georadius("shops", -74.0059, 40.7128, 10, unit="km")
 
 `Приведите скриншот, где будут проделаны все операции и будет видно, что значение key5 стало равно 10.`
 
-![Screenshot for Task 4. Working with numbers in redis](https://github.com/presdes/11-02-hw/blob/main/img/img/2025-04-01_22-24-17.png "Screenshot for Task 5. Working with numbers in redis")
+![Screenshot for Task 5. Working with numbers in redis](https://github.com/presdes/11-02-hw/blob/main/img/2025-04-01_22-24-17.png "Screenshot for Task 5. Working with numbers in redis")
 
 ✍ `Redis автоматически сохраняет числа как строки, но предоставляет команды для арифметических операций. Все операции атомарны — безопасны для многопоточных сред. Команда для атомарного увеличения - INCRBY (если значение не число — вернётся ошибка).`
 
