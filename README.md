@@ -233,4 +233,4 @@ redis.georadius("shops", -74.0059, 40.7128, 10, unit="km")
 
 ---
 
-
+![sudo systemctl status memcached](https://disk.yandex.ru/i/oRl0aIYhZyVY4A "sudo systemctl status memcached")
