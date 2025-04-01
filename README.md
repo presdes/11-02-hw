@@ -261,7 +261,7 @@ redis.georadius("shops", -74.0059, 40.7128, 10, unit="km")
 
 ![Screenshot for Task 4. Writing data to Redis](https://github.com/presdes/11-02-hw/blob/main/img/2025-04-01_22-00-22.png "Screenshot for Task 4. Writing data to Redis")
 
-✍ `Redis не имеет прямой команды GET ALL, но можно использовать KEYS * для поиска ключей (осторожно в production , базах, т.к запрос может быть достаточно продолжительным на больших БД!), затем получаем значения через цикл или MGET.`
+✍ `Redis не имеет прямой команды GET ALL, но можно использовать KEYS * для поиска ключей (осторожно в production, базах, т.к запрос может быть достаточно продолжительным на больших БД!), затем получаем значения через цикл или MGET.`
 
 ---
 
