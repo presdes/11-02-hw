@@ -245,9 +245,9 @@ redis.georadius("shops", -74.0059, 40.7128, 10, unit="km")
 
 ---
 
-![sudo systemctl status memcached](https://github.com/presdes/11-02-hw/blob/main/img/2025-04-01_19-19-31.png "sudo systemctl status memcached")
+![sudo systemctl status memcached](https://github.com/presdes/11-02-hw/blob/main/img/2025-04-01_13-50-40.png "Screenshot for Task 3. TTL deletion in Memcached")
 
-`При получении значений 3-х ключей видим, что спустя 5 секунд "дожил" только ключ с ttl `
+✍ `При получении значений 3-х ключей видим, что спустя 5 секунд "дожил" только ключ с ttl  `
 
 ---
 
