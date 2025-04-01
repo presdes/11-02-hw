@@ -169,7 +169,7 @@ redis.geoadd("shops", -74.0059, 40.7128, "NYC Store")
 # Найти магазины в радиусе 10 км
 redis.georadius("shops", -74.0059, 40.7128, 10, unit="km")
 ```
-
+<a id="wisf"></a>
 ## **Когда что использовать?**
 
 | **Проблема** | **Memcached** | **Redis** |
